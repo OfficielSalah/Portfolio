@@ -1,7 +1,8 @@
 var navbar1 = document.getElementById("nav2");
 var sticky1 = navbar1.offsetTop;
+
 function stickbar1() {
-  if (window.pageYOffset + 50 >= sticky1) {
+  if (window.pageYOffset + 40 >= sticky1) {
     navbar1.classList.add("sticky");
     navbar1.style.opacity = 1.0;
   } else {
@@ -9,6 +10,7 @@ function stickbar1() {
     navbar1.style.opacity = 0.0;
   }
 }
+
 var navbar2 = document.getElementById("cont");
 var navbar3 = document.getElementById("ski");
 var sticky2 = navbar2.offsetTop;

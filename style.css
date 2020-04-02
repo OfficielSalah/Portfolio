@@ -24,6 +24,7 @@ html {
   padding-right: 100px;
 }
 .nav-bar > a {
+  display: block;
   text-align: center;
   text-decoration: none;
   font-size: 1.2em;
@@ -98,6 +99,7 @@ html {
   font-family: header;
   padding-bottom: 70px;
   font-size: 2.5em;
+  font-weight: bolder;
 }
 .skills-container {
   margin: 0 auto;
@@ -211,7 +213,6 @@ footer {
   padding: 20px;
   width: 60px;
   text-align: center;
-  text-decoration: none;
   border-radius: 50%;
 }
 .fa:hover {
