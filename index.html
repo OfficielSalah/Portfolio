@@ -1,82 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="This is a Personnal Porfolio To Present Me .">
-    <meta name="author" content="TheBoss">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This is a Personnal Porfolio To Present Me ."
+    />
+    <meta name="author" content="TheBoss" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Jquery Script Using Google CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap Link and Script Using a CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>TheBoss Portfolio</title>
-</head>
+  </head>
 
-<body id="home">
+  <body id="home">
     <div class="home">
-        <nav class="nav-bar"id="nav1">
-            <a href="#contact">Contact</a> 
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#home" class="active">Home</a> 
-        </nav>
-        <h1>Back-end Web Developer .</h1>
-        <p>Hi There !! My Name Is SalahEddin ElHazzime and I'm a Moroccan software developer Based on Back-End Development . And I focus on writing clean , efficient and elegant code . </p>
+      <nav class="nav-bar container-fluid" id="nav1">
+        <a href="#contact">Contact</a>
+        <a href="#skills">Skills</a>
+        <a href="#home" class="active">Home</a>
+      </nav>
+      <h1>Back-end Web Developer .</h1>
+      <p>
+        Hi There !! My Name Is SalahEddin ElHazzime and I'm a Moroccan Software
+        developer Based on Back-End Development . I Focus on writing Clean ,
+        Efficient and Elegant Code .
+      </p>
     </div>
     <div id="skills" class="skills">
-        <nav class="nav-bar" id="nav2">
-            <a href="#contact">Contact</a> 
-            <a href="#projects">Projects</a>
-            <a href="#skills" class="active">Skills</a>
-            <a href="#home">Home</a> 
-        </nav>
-        <h1>SKILLS</h1>
-        <div class="skills-container">
-            <div class="list">
-                <img src="images/front-end.png" alt="front-end icon">
-                <h2>Front-end</h2>
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-                <h3>JAVASCRIPT</h3>
-            </div>
-            <div class="list">
-                <img src="images/back-end.png" alt="back-end icon">
-                <h2>Back-end</h2>
-                <h3>PYTHON</h3>
-                <h3>PHP</h3>
-                <h3>DJANGO FRAMEWORK</h3>
-            </div>
-            <div class="list">
-                <img src="images/database.png" alt="database icon">
-                <h2>Database</h2>
-                <h3>MYSQL</h3>
-                <h3>SQL</h3>
-                <h3>TEST</h3>
-            </div>
+      <nav class="nav-bar container-fluid" id="nav2">
+        <a id="cont" href="#contact">Contact</a>
+        <a id="ski" href="#skills" class="active">Skills</a>
+        <a href="#home">Home</a>
+      </nav>
+      <h1>SKILLS</h1>
+      <div class="skills-container container-fluid">
+        <div class="list">
+          <img src="images/front-end.png" alt="front-end icon" />
+          <h2>Front-end</h2>
+          <h3>HTML</h3>
+          <h3>CSS</h3>
+          <h3>JAVASCRIPT</h3>
+          <h3>JQUERY AND BOOTSTRAP</h3>
         </div>
-    </div>
-    <div class="projects" id="projects">
+        <div class="list">
+          <img src="images/back-end.png" alt="back-end icon" />
+          <h2>Back-end</h2>
+          <h3>PYTHON</h3>
+
+          <h3>FLASK FRAMEWORK</h3>
+        </div>
+        <div class="list">
+          <img src="images/database.png" alt="database icon" />
+          <h2>Skills</h2>
+          <h3>GIT</h3>
+          <h3>COMMAND LINE</h3>
+          <h3>PENTESTING BASICS</h3>
+        </div>
+      </div>
     </div>
     <div class="contact" id="contact">
-        <h1>Contact</h1>
-        <h3>You Want To Hire Me .</h3>
-        <form>
-            <input type="text" placeholder="Name" required="required" name="userName">
-            <input type="email" placeholder="Enter email" required name="email">
-            <textarea placeholder="Your Message" type="text" name="message" required name="message"></textarea>
-            <input type="submit" value="SEND" class="submit">
-        </form>
-        <footer>
-            <p class="badge">© 2019 The Boss.</p>
-            <span class="media">
-				<ul>
-                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100001779407363"><i class="fa fa-facebook"></i></a></li>
-                    <li><a target="_blank" href="https://github.com/OfficielSalah"><i class="fa fa-github"></i></a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com/in/elhazzime-salaheddin-76330118a/"><i class="fa fa-linkedin"></i></a></li> 
-                </ul>
-			</span>
-        </footer>
+      <h1>Contact</h1>
+      <h3>For More Details, Contact Me .</h3>
+      <form action="" method="POST">
+        <input
+          type="text"
+          placeholder="Name"
+          required="required"
+          name="userName"
+        />
+        <input
+          type="email"
+          placeholder="Enter email"
+          required="required"
+          name="email"
+        />
+        <textarea
+          placeholder="Your Message"
+          type="text"
+          name="message"
+          required="required"
+          name="message"
+        ></textarea>
+        <input type="submit" value="SEND" class="submit" />
+      </form>
+      <footer>
+        <p class="badge">© 2020 The Boss.</p>
+        <span class="media">
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100001779407363"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/OfficielSalah"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/elhazzime-salaheddin-76330118a/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </span>
+      </footer>
     </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

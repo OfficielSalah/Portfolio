@@ -1,223 +1,231 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
-  }
-  @font-face { font-family: header ; src:url('fonts/OpenSansCondensed-Light.ttf')}
-  @font-face { font-family: body ; src:url('fonts/OpenSans-Regular.ttf')}
-.home{
-    background-image: url('images/black.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 196px ;
-    }
-.nav-bar{
-    padding-right: 100px;
+  scroll-behavior: smooth;
 }
-.nav-bar > a{
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-family: body ;
-    font-weight: bold;
-    float: right;
-    padding: 10px 20px 0 0 ; 
-    margin: 10px;
-    color:white;
+@font-face {
+  font-family: header;
+  src: url("fonts/OpenSansCondensed-Light.ttf");
 }
-#nav1 a{
-    padding: 35px;
-    opacity: 0.9;
+@font-face {
+  font-family: body;
+  src: url("fonts/OpenSans-Regular.ttf");
 }
-#nav1 a:hover{
-    color: #FB5B6A;
-    border-bottom: 3px solid #FB5B6A;
+.home {
+  background-image: url("images/black.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 208px;
 }
-.active{
-border-bottom: 3px solid #FB5B6A;
+.nav-bar {
+  padding-right: 100px;
+}
+.nav-bar > a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: body;
+  font-weight: bold;
+  float: right;
+  padding: 10px 20px 0 0;
+  margin: 5px;
+  color: white;
+}
+#nav1 a {
+  padding: 20px;
+  opacity: 0.9;
+}
+#nav1 a:hover {
+  color: #fb5b6a;
+  border-bottom: 3px solid #fb5b6a;
+}
+.active {
+  border-bottom: 3px solid #fb5b6a;
 }
 .home h1 {
-    color: #FB5B6A;
-    text-align: center;
-    font-size: 3.6em;
-    font-family: sans-serif;
-    padding: 250px 200px 60px 0 ;
+  color: #fb5b6a;
+  text-align: center;
+  font-size: 3.6em;
+  font-family: sans-serif;
+  padding: 250px 200px 60px 0;
 }
-.home p{
-    color: white;
-    text-align: center;
-    margin: 20px 50px;
-    padding: 15px;
-    font-size: 1.8em;
-    line-height: 2.5em;
-    font-family:  body ;
+.home p {
+  color: white;
+  text-align: center;
+  margin: 20px 50px;
+  padding: 15px;
+  font-size: 1.8em;
+  line-height: 2.5em;
+  font-family: body;
 }
-.skills{
-    background-image: url('images/Header.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 196px ;
+.skills {
+  background-image: url("images/Header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 150px;
 }
 #nav2 {
-    background-image: linear-gradient(to left,rgb(255, 188, 53),rgba(250, 46, 148, 0.801));
-    overflow: visible;
-    transition: all 0.6s;
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 188, 53),
+    rgba(250, 46, 148, 0.801)
+  );
+  overflow: visible;
+  transition: all 0.6s;
 }
-#nav2 a{
-    padding: 15px;
-    opacity: 0.9;
+#nav2 a {
+  padding: 15px;
+  opacity: 0.9;
 }
-#nav2 a:hover{
-    color: #F15869;
-    border-bottom: 3px solid #FB5B6A;
+#nav2 a:hover {
+  color: #f15869;
+  border-bottom: 3px solid #fb5b6a;
 }
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .skills h1 {
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 150px;
-    letter-spacing: 10px;
-    font-family:header;
-    padding-bottom: 70px;
-    font-size: 2.5eù;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 80px;
+  letter-spacing: 10px;
+  font-family: header;
+  padding-bottom: 70px;
+  font-size: 2.5em;
 }
-.skills-container{
-    margin: 0 auto;
-    color: white;
-    max-width: 1200px;
-    text-align: center;
-    padding: 5rem 1.5rem;
-    border-radius: 12px;
-    display: flex;
-    border: 2px solid white;
-    background-color: rgba(216, 83, 63, 0.877);
+.skills-container {
+  margin: 0 auto;
+  color: white;
+  max-width: 1200px;
+  text-align: center;
+  padding: 5rem 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  border: 2px solid white;
+  background-color: rgba(216, 83, 63, 0.877);
 }
-.list{
-    display: block;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
-    border-right: 1px solid whitesmoke;
+.list {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border-right: 1px solid whitesmoke;
 }
 .list h2 {
-    font-family: sans-serif;
-    font-size: 2.0em;
-    margin: 20px 0;
+  font-family: sans-serif;
+  font-size: 2em;
+  margin: auto 0;
 }
-.list img{
-    width: 100px;
-    height: 100px;
+.list img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
 }
-.list:last-child{
-    border: none;
+
+.list:last-child {
+  border: none;
 }
 .list h3 {
-    font-family: body ;
-    padding: 20px;
+  font-family: body;
+  padding: 20px;
 }
-.contact{
-    background-image: url('images/footer.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.contact {
+  background-image: url("images/footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .contact h1 {
-    text-align: center;
-    padding-top: 150px;
-    color: white;
-    letter-spacing: 10px;
-    font-family:header;
-    font-size: 2.4em;
-    margin-bottom: 60px;
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+  letter-spacing: 10px;
+  font-family: header;
+  font-size: 2.4em;
+  margin-bottom: 60px;
 }
 .contact h3 {
-    text-align: center;
-    color: white;
-    letter-spacing: 10px;
-    font-family:header;
-    font-size: 2.4em;
-    margin-bottom: 60px;
+  text-align: center;
+  color: white;
+  letter-spacing: 10px;
+  font-family: header;
+  font-size: 2.4em;
+  margin-bottom: 60px;
 }
 input {
-    background-color: rgb(56, 42, 40);
-    color: white;
-    display: block;
-    margin: 0 auto ;
-    padding: 10px 15px 10px 15px ;
-    margin-bottom: 3px;
-    width: 35%;
-    border: none;
+  background-color: rgb(56, 42, 40);
+  color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 3px;
+  width: 35%;
+  border: none;
 }
-textarea{
-    width: 35%;
-    margin: 0 auto;
-    display: block;
-    height: 120px;
-    background-color: rgb(56, 42, 40);
-    color: white;
-    border: none;
+textarea {
+  width: 35%;
+  margin: 0 auto;
+  display: block;
+  height: 120px;
+  background-color: rgb(56, 42, 40);
+  color: white;
+  border: none;
 }
-footer{
-    background: black;
-    color: white;
-    display: block;
-    position: relative;
-    height: 80px;
+footer {
+  background: black;
+  color: white;
+  display: block;
+  position: relative;
+  height: 80px;
 }
-.submit{
-    margin-top: 30px;
-    background-color: #7EAA9B;
-    width: 80px;
-    height: 50px;
-    border-radius: 30px;
-    margin-bottom: 55px;
+.submit {
+  margin-top: 30px;
+  background-color: #7eaa9b;
+  width: 80px;
+  height: 50px;
+  border-radius: 30px;
+  margin-bottom: 55px;
 }
-.badge{
-    padding-left: 40px;
-    display: inline;
-    top: 30px;
-    position: relative;
+.badge {
+  padding-left: 40px;
+  display: inline;
+  top: 30px;
+  position: relative;
 }
-.media{
-    float: right;
-    margin-right: 80px;
-    margin-top: 13px;
+.media {
+  float: right;
+  margin-right: 80px;
+  margin-top: 13px;
 }
-.media  li {
-    margin-left: 20px;
-    list-style-type: none;
-    display: inline;
+.media li {
+  margin-left: 20px;
+  list-style-type: none;
+  display: inline;
 }
 .fa {
-    padding: 20px;
-    width: 60px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  padding: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
-.fa-facebook{
-    background: #3B5998;
-    color: white;
+.fa-facebook {
+  background: #3b5998;
+  color: white;
 }
-.fa-github{
-    background: white;
-    color: black;
+.fa-github {
+  background: white;
+  color: black;
 }
-.fa-linkedin{
-    background: #007bb5;
-    color: white;
-}
-.test{
-    color:rgb(153, 58, 197);
-    color: #312A31
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
